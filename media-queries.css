@@ -1,0 +1,54 @@
+@media only screen and (max-width: 768px) {
+  .home .navbar-brand {
+    padding-left: 1rem;
+  }
+  .course .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  .features .cover {
+    background-position: -25vmin -10vmin;
+  }
+  .numbers .rect {
+    width: 10rem;
+    height: 8rem;
+  }
+  .numbers .rect h1 {
+    font-size: 2rem;
+  }
+
+  .download {
+    height: inherit;
+    padding: 10vmin !important;
+  }
+  .download .row h1 {
+    padding: 6vmin 4vmin;
+  }
+  .download .platform .col-md-6 {
+    text-align: center !important;
+  }
+  .download .desktop i {
+    font-size: 8vmin;
+  }
+  .about .carousel-item {
+    padding-left: 0.6rem;
+  }
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
+}
+
+/* screen size 375px */
+
+@media only screen and (max-width: 375px) {
+  .about .card {
+    width: 18em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .about .carousel-inner {
+    margin-left: -4vmin;
+  }
+}
